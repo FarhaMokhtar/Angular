@@ -54,13 +54,20 @@ export class UpdateComponent implements OnInit {
 
   updateuser() {
     if (this.registerform.valid) {
-      this.service.updatuser(this.registerform.value.id, this.registerform.value).subscribe(res => {
-        this.toaster.success('updated succesfully');
-        this.dialog.close();
-      });
-
+      const userId = this.registerform.value.id; 
+      this.service.updatuser(userId, this.registerform.value).subscribe(
+        (res) => {
+          this.toaster.success('Updated successfully');
+          this.dialog.close();
+        },
+        (error) => {
+          this.toaster.error('Update failed');
+          console.error('Error updating user:', error);
+        }
+      );
     } else {
-      this.toaster.warning('please select role.')
+      this.toaster.warning('Please fill all required fields.');
     }
   }
+  
 }

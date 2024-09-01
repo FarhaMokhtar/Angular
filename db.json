@@ -1,13 +1,22 @@
 {
   "user": [
     {
-      "id": "admin",
-      "name": "John Doe",
+      "id": "pla4",
+      "name": "farha",
       "password": "123",
-      "email": "example@example.com",
+      "email": "farhaelnady683@gmail.com",
       "gender": "female",
-      "role": "admin",
-      "isactive": true
+      "role": "staff",
+      "isactive": false
+    },
+    {
+      "id": "d952",
+      "username": "admin",
+      "name": "dfarha",
+      "email": "aa@qq.com",
+      "gender": "male",
+      "role": "user",
+      "isActive": true
     },
     {
       "id": "farha",
@@ -15,68 +24,23 @@
       "password": "123",
       "email": "farhaelnady683@gmail.com",
       "gender": "female",
-      "role": "admin",
+      "role": "",
       "isactive": false
     },
     {
-      "id": "mokhtar",
-      "name": "pla",
-      "password": "123",
-      "email": "farhaelnady683@gmail.com",
+      "id": "78e5",
+      "username": "farha",
+      "name": "hjfd",
+      "email": "fjk@gjkft.com",
       "gender": "male",
-      "role": "staff",
-      "isactive": true
+      "role": "admin",
+      "isActive": true
     },
     {
-      "id": "user123",
-      "name": "farha",
+      "id": "farha",
+      "name": "gdsh",
       "password": "123",
-      "email": "farhaelnady683@gmail.com",
-      "gender": "female",
-      "role": "staff",
-      "isactive": true
-    },
-    {
-      "id": "farhamokhtar",
-      "name": "hfhrjhbv",
-      "password": "1234",
-      "email": "farhaelnady683@gmail.com",
-      "gender": "female",
-      "role": "normal",
-      "isactive": true
-    },
-    {
-      "id": "farhamokhtar",
-      "name": "hfhrjhbv",
-      "password": "1234",
-      "email": "farhaelnady683@gmail.com",
-      "gender": "female",
-      "role": "",
-      "isactive": false
-    },
-    {
-      "id": "farhamokhtar",
-      "name": "hfhrjhbv",
-      "password": "1234",
-      "email": "farhaelnady683@gmail.com",
-      "gender": "female",
-      "role": "",
-      "isactive": false
-    },
-    {
-      "id": "admin",
-      "name": "farha",
-      "password": "123",
-      "email": "farhaelnady683@gmail.com",
-      "gender": "female",
-      "role": "",
-      "isactive": true
-    },
-    {
-      "id": "admin",
-      "name": "farha",
-      "password": "123",
-      "email": "farhaelnady683@gmail.com",
+      "email": "hjdjsb@jfk.com",
       "gender": "female",
       "role": "",
       "isactive": false
@@ -90,6 +54,35 @@
     {
       "code": "normal",
       "name": "normal"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveade": true,
+      "havedelet": true
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": true,
+      "haveade": true,
+      "havedelet": false
+    },
+    {
+      "role": "tech",
+      "menu": "user",
+      "haveedit": false,
+      "haveade": true,
+      "havedelet": false
     }
   ]
 }

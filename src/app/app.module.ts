@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { UserComponent } from './user/user.component';
 import { UpdateComponent } from './update/update.component';
 import { RouterModule, Routes } from '@angular/router';
+import { AddUserComponent } from './add-user/add-user.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import { RouterModule, Routes } from '@angular/router';
     LoginComponent,
     HomeComponent,
     UserComponent,
-    UpdateComponent
+    UpdateComponent,
+    AddUserComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +35,7 @@ import { RouterModule, Routes } from '@angular/router';
     ReactiveFormsModule,
     HttpClientModule,
     RouterModule,
+    FormsModule,
     ToastrModule.forRoot({
       timeOut: 3000, 
       positionClass: 'toast-top-right', 

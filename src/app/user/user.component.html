@@ -1,4 +1,6 @@
 <div class="mat-elevation-z8">
+  <button type="button" class="btn btn-primary btn-lg" (click)="openAddUserDialog()">Add User</button>
+
 <table mat-table matSort [dataSource]="dataSource" class="mat-elevation-z8">
 
     <!-- Username Column -->
@@ -35,8 +37,8 @@
     <ng-container matColumnDef="action">
       <th mat-header-cell *matHeaderCellDef> Action </th>
       <td mat-cell *matCellDef="let element"> 
-        <a *ngIf="element.role !='admin'" type="button" class="btn btn-danger"  (click)="UpdateUser(element.id)">Update</a>
-
+        <button  type="button" class="btn btn-primary"  (click)="UpdateUser(element.id)">Update</button>
+        <button type="button" class="btn btn-danger"  (click)="RemoveUser(element.id)">Delete</button>
       </td>
     </ng-container>
   
