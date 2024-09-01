@@ -12,6 +12,5 @@ and deleting users. Access to specific pages is restricted based on user authent
 - **Logout**: Allows users to log out and end their session.
 - **Access Control**: Users must be logged in to access the home and users pages.
 
-## Installation
 
 
