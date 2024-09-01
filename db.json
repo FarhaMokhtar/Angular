@@ -1,0 +1,95 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "John Doe",
+      "password": "123",
+      "email": "example@example.com",
+      "gender": "female",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "farha",
+      "name": "farha",
+      "password": "123",
+      "email": "farhaelnady683@gmail.com",
+      "gender": "female",
+      "role": "admin",
+      "isactive": false
+    },
+    {
+      "id": "mokhtar",
+      "name": "pla",
+      "password": "123",
+      "email": "farhaelnady683@gmail.com",
+      "gender": "male",
+      "role": "staff",
+      "isactive": true
+    },
+    {
+      "id": "user123",
+      "name": "farha",
+      "password": "123",
+      "email": "farhaelnady683@gmail.com",
+      "gender": "female",
+      "role": "staff",
+      "isactive": true
+    },
+    {
+      "id": "farhamokhtar",
+      "name": "hfhrjhbv",
+      "password": "1234",
+      "email": "farhaelnady683@gmail.com",
+      "gender": "female",
+      "role": "normal",
+      "isactive": true
+    },
+    {
+      "id": "farhamokhtar",
+      "name": "hfhrjhbv",
+      "password": "1234",
+      "email": "farhaelnady683@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "farhamokhtar",
+      "name": "hfhrjhbv",
+      "password": "1234",
+      "email": "farhaelnady683@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "admin",
+      "name": "farha",
+      "password": "123",
+      "email": "farhaelnady683@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "admin",
+      "name": "farha",
+      "password": "123",
+      "email": "farhaelnady683@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    }
+  ],
+  "role": [
+    {
+      "code": "staff",
+      "name": "staff"
+    },
+    {
+      "code": "normal",
+      "name": "normal"
+    }
+  ]
+}

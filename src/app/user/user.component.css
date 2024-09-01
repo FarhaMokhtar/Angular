@@ -1,0 +1,13 @@
+.table-container {
+    margin: 20px;
+    width: 100%; 
+}
+.table {
+    width: 100%; 
+    font-size: 12px;}
+.table th, .table td {
+    padding: 20px; 
+}
+.table th:nth-child(1), .table td:nth-child(1) {
+    width: 10%; 
+}
